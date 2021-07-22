@@ -5,6 +5,15 @@
 npm install
 ```
 
+### 编辑器
+```
+HBuilderx
+```
+### UI框架
+```
+VUE
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
