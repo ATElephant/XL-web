@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   		<!-- 新 Bootstrap 核心 CSS 文件 -->
+   		<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   		
+   		<link href="./css/style.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id="app"></div>
+
+		<script type="text/javascript">
+			var c = () => {
+				let w = document.documentElement.clientWidth; /* 获取设备宽度 */
+				let n = (15 * (w / 1125) + 'px'); /* 20:当前设备视口合适的字体大小；320：当前设备视口的宽度  字体大小最大40px*/
+				document.documentElement.style.fontSize = n;
+			}
+			window.addEventListener("load", c); /*默认*/
+			window.addEventListener("resize", c); /*视口改变时*/
+		</script>
+	</body>
+</html>
